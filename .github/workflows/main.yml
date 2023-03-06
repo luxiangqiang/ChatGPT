@@ -5,7 +5,7 @@ on:
     branches: ['main']
 
 env:
-  REGISTRY: luxiangqiang.io
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
