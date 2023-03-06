@@ -2,7 +2,7 @@
  * @Author: luxiangqiang
  * @Date: 2023-03-06 09:03:00
  * @LastEditors: luxiangqiang
- * @LastEditTime: 2023-03-06 10:11:50
+ * @LastEditTime: 2023-03-06 10:39:31
  */
 import { defineConfig } from 'astro/config'
 import unocss from 'unocss/astro'
@@ -27,7 +27,7 @@ const envAdapter = () => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://github.com/luxiangqiang/ChatGPT.git',
+  site: 'https://luxiangqiang.github.io/ChatGPT',
   base: '/ChatGPT',
   integrations: [
     unocss({
